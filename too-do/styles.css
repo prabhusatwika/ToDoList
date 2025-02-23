@@ -1,0 +1,133 @@
+/* Gradient Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(180deg, #991CD1 0%, #D4307A 100%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+/* Centered Container */
+.container {
+    max-width: 700px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease-in-out;
+}
+
+/* Title */
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #333;
+}
+
+/* Input and Button Container */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+/* Input Fields */
+input {
+    padding: 14px;
+    border: 2px solid #141313;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* Buttons */
+button {
+    padding: 14px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    transform: scale(1.07);
+}
+
+/* Add Task Button */
+.add-btn {
+    background-color: #28a745;
+}
+.add-btn:hover {
+    background-color: #218838;
+}
+
+/* Complete Task Button */
+.complete-btn {
+    background-color: #007bff;
+}
+.complete-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Remove Task Button */
+.remove-btn {
+    background-color: #dc3545;
+}
+.remove-btn:hover {
+    background-color: #c82333;
+}
+
+/* Task List */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Task Item */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, #6c0e98 0%, #6130d4 100%);
+    padding: 14px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 15px;
+}
+
+/* Task Info */
+.task-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Task Time */
+.task-time {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 5px;
+}
+
+/* Completed Task - Green Background */
+.completed {
+    text-decoration: line-through;
+    background-color: #28a745 !important;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
